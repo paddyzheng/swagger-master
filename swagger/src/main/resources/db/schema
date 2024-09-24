@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS TM_BOOK (
+  BOOK_ID bigint(32) NOT NULL COMMENT 'bookId',
+  TITLE varchar(32) NOT NULL COMMENT 'title',
+  AUTHOR varchar(19) NOT NULL COMMENT 'author',
+  PRICE decimal(15,2) COMMENT 'price',
+  CATEGORY varchar(19) NOT NULL COMMENT 'category',
+  CREATED_DATETIME datetime COMMENT 'createTime',
+  LAST_MODIFIED_DATETIME datetime COMMENT 'lastModifiedDatetime',
+  JPA_VERSION int(11) COMMENT 'jpaVersion',
+  PRIMARY KEY (`BOOK_ID`),
+  KEY `IDX_TM_SECURITY_NAME_TYPE` (`TITLE`,`AUTHOR`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
