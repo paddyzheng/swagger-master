@@ -22,17 +22,17 @@ if fail to start up then check application.yml
 
 # Module Details
 ## Application Function Module
-bookManagement-add：Add a new book, click the debug button on the left, enter the parameters and send a request to view the returned results, or directly query the data on the H2 DB
-bookManagement-list：Unconditionally search for all books, click the debug button on the left to send a request without entering parameters, and view the returned results
-bookManagement-update：Update the book, click the debug button on the left, enter the parameters, and send the request. The data comes from the return result of bookManagement-list above
-bookManagement-queryBooksByAuthorLike：Fuzzy query of book list based on author
-bookManagement-queryBooksByPriceGreaterThan：Fuzzy query of book list based on price (greater than the input price)
-bookManagement-queryBooksByPriceLessThan：Fuzzy query of book list based on price (less than the input price)
-bookManagement-queryBooksByTitleLike：Fuzzy query of book list based on title
-bookManagement-delete：Delete data, bookId comes from the return result of bookManagement-list above
-shopping cart add：Add to cart, bookId comes from the return result of bookManagement-list
-shopping cart list：Unconditional search shopping cart
-shopping cart checkOut：Shopping cart checkout, cartId comes from the return result of the shopping cart list above
+### bookManagement-add：Add a new book, click the debug button on the left, enter the parameters and send a request to view the returned results, or directly query the data on the H2 DB
+### bookManagement-list：Unconditionally search for all books, click the debug button on the left to send a request without entering parameters, and view the returned results
+### bookManagement-update：Update the book, click the debug button on the left, enter the parameters, and send the request. The data comes from the return result of bookManagement-list above
+### bookManagement-queryBooksByAuthorLike：Fuzzy query of book list based on author
+### bookManagement-queryBooksByPriceGreaterThan：Fuzzy query of book list based on price (greater than the input price)
+### bookManagement-queryBooksByPriceLessThan：Fuzzy query of book list based on price (less than the input price)
+### bookManagement-queryBooksByTitleLike：Fuzzy query of book list based on title
+### bookManagement-delete：Delete data, bookId comes from the return result of bookManagement-list above
+### shopping cart add：Add to cart, bookId comes from the return result of bookManagement-list
+### shopping cart list：Unconditional search shopping cart
+### shopping cart checkOut：Shopping cart checkout, cartId comes from the return result of the shopping cart list above
 
 ## Code logic module
 ### SwaggerApplication: springboot startup 
